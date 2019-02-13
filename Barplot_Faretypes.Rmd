@@ -81,6 +81,10 @@ plot1 = base + geom_bar(fill ="blue",
                     plot.title = element_text(hjust = 0.5)) 
 plot1
 ```
+```{r}
+plot2 = plot1+ scale_y_continuous(labels = scales::percent)
+plot2
+```
 
 
 
